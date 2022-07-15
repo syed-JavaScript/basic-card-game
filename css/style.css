@@ -1,47 +1,55 @@
 body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .main-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 3px;
-    height: 90vh;
-  }
-  .sub-container {
-    border: 1px solid black;  
-    padding: 5px;
-    border-radius: 10px;
-    margin: 10px;
-    background: cadetblue;
-  }
-  .sub-container:hover {
-    background: slategray;
-  }
-  .sub-container {
-    border: 3px solid red;
-  }
-
-  .control-section{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    height: 9vh;
-
-   
-
-  }
-  .control-section .section{   
-    background-color: yellowgreen;
-    border: 1px solid black;  
-    border-radius: 3px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-.control-section .btn{
-    align-content: center;
+  margin: 0;
+  padding: 0;
 }
-  
-  
 
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3px;
+  height: 90vh;
+}
+.sub-container {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px;
+  background: cadetblue;
+}
+.sub-container:hover {
+  background: slategray;
+}
+.sub-container {
+  border: 3px solid red;
+}
+
+.control-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  height: 9vh;
+}
+.control-section .section {
+  background-color: yellowgreen;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.control-section .btn {
+  text-align: center;
+}
+.control-section .btn button {
+  font-size: 24px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.control-section .lbl {
+  text-align: center;
+}
+.control-section .lbl h1 {
+  font-size: 35px;
+  margin: 10px;
+  font-weight: bold;
+}
