@@ -1,2 +1,2 @@
 # basic-card-game
-Dummy Card game
+### Download and run the HTML File
